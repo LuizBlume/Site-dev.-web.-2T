@@ -1,3 +1,14 @@
+<?php
+
+  if (isset($_POST['submit'])) {
+    print_r($_POST['nome']);
+    print_r($_POST['<br>']);
+    print_r($_POST['telefone']);
+    print_r($_POST['email']);
+  }
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -9,7 +20,7 @@
 </head>
 <body>
     <div class="box">
-        <form action="">
+        <form action="formulario.php" method="POST">
             <fieldset>
               <legend><b>Formulário de clientes</b></legend>
               <br>
