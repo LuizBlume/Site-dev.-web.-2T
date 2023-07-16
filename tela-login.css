@@ -21,7 +21,7 @@ input {
     font-size: 15px;
 }
 
-button {
+.button {
     background-color: dodgerblue;
     border: none;
     padding: 15px;
@@ -31,7 +31,7 @@ button {
     font-size: 15px;
 }
 
-button:hover {
+.button:hover {
     background-color: deepskyblue;
     cursor: pointer;
 }
