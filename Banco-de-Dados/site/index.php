@@ -45,42 +45,42 @@ $logado = $_SESSION['email'];
 			<br>
 			<br>
 
-			<a href="RTS.html">
+			<a href="RTS.php">
 				<img src="imagens/rts.webp" alt="">
 				<p>Estratégia em Tempo Real: O que são os eSports de estratégia em tempo real?</p>
 			</a>
 
 			<br>
 
-			<a href="FPS.html">
+			<a href="FPS.php">
 				<img src="imagens/FPS.jpg" alt="">
 				<p>FPS: A modalidade mais conhecida de eSports, venha conhecer também!</p>
 			</a>
 
 			<br>
 
-			<a href="Luta.html">
+			<a href="Luta.php">
 				<img src="imagens/LUTA.webp" alt="">
 				<p>Luta: Conheça a modalidade eSports mais agressiva!</p>
 			</a>
 
 			<br>
 
-			<a href="esportes.html">
+			<a href="esportes.php">
 				<img src="imagens/esportes.avif" alt="">
 				<p>Esportes: Esportes comuns mas dentro de telas!</p>
 			</a>
 
 			<br>
 
-			<a href="cartas.html]">
+			<a href="cartas.php]">
 				<img src="imagens/cartas.jpg" alt="">
 				<p>Cartas: Um esporte que exige muita atenção!</p>
 			</a>
 
 			<br>
 
-			<a href="moba.html">
+			<a href="moba.php">
 				<img src="imagens/MOBA.jpg" alt="">
 				<p>MOBA: Um jogo de estratégia em equipe!</p>
 			</a>
