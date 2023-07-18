@@ -1,0 +1,171 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 100vw;
+    margin: 3px;
+    background-color: #141414;
+}
+
+header,
+nav,
+main,
+aside,
+footer {
+    display: flex;
+    margin: 3px;
+}
+
+header {
+    flex: 1 1 100vw;
+    background-color: #00002c;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+header #logo {
+    padding: 20px;
+    display: flex;
+    width: 150px;
+}
+
+#openMenu,
+#closeMenu {
+    border: none;
+    background: none;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0px 5px 0px 5px;
+    cursor: pointer;
+    display: none;
+}
+
+nav {
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1 1 200px;
+}
+
+nav a {
+    margin: 0 3%;
+    font-size: 15pt;
+}
+
+main {
+    flex: 20px 1 500px;
+    background-color: #141414;
+    width: 68%;
+    color: #ffffff;
+    font-size: 1.5em;
+    padding: 15px;
+    height: 1950px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#anunciocs {
+    width: 100%;
+    height: 5%;
+}
+
+aside {
+    flex: 1 1 200px;
+    width: 32%;
+    height: 752px;
+    top: 859px;
+    left: 664px;
+    border-radius: 15px;    
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: #202020;
+    display: grid;
+    grid-template-columns: 1fr;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6em;
+}
+
+#linkfooter:hover {
+    background-color: #3f3f3f;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#linkmenu:hover {
+    background-color: rgba(103, 120, 136, 0.6);
+    border-radius: 7px;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 817px) {
+
+    #openMenu,
+    #closeMenu {
+        display: block;
+    }
+
+    #openMenu {
+        margin-left: auto;
+    }
+
+    #closeMenu {
+        position: fixed;
+        right: 15px;
+        top: 15px;
+    }
+
+    nav {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(255, 255, 255, 0.8);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        display: none;
+        opacity: 0;
+        transition: 0.3s;
+        color: black;
+    }
+
+    nav a {
+        margin: 3%;
+    }
+}
+
+.logo {
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#Logo {
+    border-radius: 100px;
+    width: 135px;
+}
+
+#anuncio {
+    height: 630px;
+    width: 323px;
+    cursor: pointer;
+    bottom: 30px;
+    border-radius: 15px;
+}
