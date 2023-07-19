@@ -8,7 +8,7 @@
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
-            background: linear-gradient(to right, rgb(45, 45, 255), rgb(7, 14, 73));
+            background: linear-gradient(to right, #7a500b, #DDB957);
             text-align: center;
         }
 
@@ -25,20 +25,20 @@
         a {
             text-decoration: none;
             color: white;
-            border: 3px solid dodgerblue;
+            border: 3px solid #a66908;
             border-radius: 15px;
             padding: 10px;
         }
 
         a:hover {
-            background-color: dodgerblue;
+            background-color: #805208;
         }
     </style>
 </head>
 
 <body>
-    <h1>Teste</h1>
-    <h2>Teste</h2>
+    <h1>Bem Vindo!</h1>
+    <h2>Faça o cadastro, ou use seu login!</h2>
     <div class="box">
         <a href="login.php">Login</a>
         <a href="formulario.php">Cadastre-se</a>

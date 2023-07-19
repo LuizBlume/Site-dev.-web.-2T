@@ -1,6 +1,6 @@
 <?php
 session_start();
-print_r($_SESSION);
+// print_r($_SESSION);
 if ((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true)) {
     unset($_SESSION['email']);
     unset($_SESSION['senha']);
@@ -46,42 +46,42 @@ $logado = $_SESSION['email'];
 			<br>
 
 			<a href="RTS.php">
-				<img src="imagens/rts.webp" alt="">
+				<img class="imgsection" src="imagens/rts.webp" alt="">
 				<p>Estratégia em Tempo Real: O que são os eSports de estratégia em tempo real?</p>
 			</a>
 
 			<br>
 
 			<a href="FPS.php">
-				<img src="imagens/FPS.jpg" alt="">
+				<img class="imgsection" src="imagens/FPS.jpg" alt="">
 				<p>FPS: A modalidade mais conhecida de eSports, venha conhecer também!</p>
 			</a>
 
 			<br>
 
 			<a href="Luta.php">
-				<img src="imagens/LUTA.webp" alt="">
+				<img class="imgsection" src="imagens/LUTA.webp" alt="">
 				<p>Luta: Conheça a modalidade eSports mais agressiva!</p>
 			</a>
 
 			<br>
 
 			<a href="esportes.php">
-				<img src="imagens/esportes.avif" alt="">
+				<img class="imgsection" src="imagens/esportes.avif" alt="">
 				<p>Esportes: Esportes comuns mas dentro de telas!</p>
 			</a>
 
 			<br>
 
 			<a href="cartas.php]">
-				<img src="imagens/cartas.jpg" alt="">
+				<img class="imgsection" src="imagens/cartas.jpg" alt="">
 				<p>Cartas: Um esporte que exige muita atenção!</p>
 			</a>
 
 			<br>
 
 			<a href="moba.php">
-				<img src="imagens/MOBA.jpg" alt="">
+				<img class="imgsection" src="imagens/MOBA.jpg" alt="">
 				<p>MOBA: Um jogo de estratégia em equipe!</p>
 			</a>
 		</section>
@@ -90,7 +90,7 @@ $logado = $_SESSION['email'];
 		<nav>
 			<a href="https://hype.games/br/colecoes/jogos-playstation-pc-no-hype?gclid=CjwKCAjw-7OlBhB8EiwAnoOEkyjWY0OUoL3SAt0d6O7VmD8J_p4LtdZcPsvCp0bVCQ9jz1m9_Y2oZxoCYAIQAvD_BwE"
 				target="_blank">
-				<img src="imagens/anuncio-index-removebg-preview.png" alt="" id="anuncio">
+				<img src="imagens/anuncio-index.jpg" alt="" id="anuncio">
 			</a>
 		</nav>
 	</aside>

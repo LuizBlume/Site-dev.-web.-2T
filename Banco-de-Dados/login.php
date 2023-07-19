@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="tela-login.css">
     <title>Teste</title>
     <style>
-        html, body{
+
+    html, body{
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(to right, rgb(45, 45, 255), rgb(7, 14, 73));
 }
@@ -46,10 +46,17 @@ input {
     cursor: pointer;
 }
 
+.home {
+    background-color: rgba(103, 120, 136, 0.8);
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+
     </style>
 </head>
 <body>
-    <a href="home.php">Voltar</a>
+    <a class="home" href="home.php">Voltar</a>
     <div class="tela-login">
         <form action="testLogin.php" method="POST">
             <input type="text" name="email" placeholder="Email">

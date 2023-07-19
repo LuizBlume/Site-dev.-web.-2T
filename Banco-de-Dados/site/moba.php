@@ -80,9 +80,9 @@
     </main>
     <aside>
         <nav>
-            <a href="https://hype.games/br/colecoes/jogos-playstation-pc-no-hype?gclid=CjwKCAjw-7OlBhB8EiwAnoOEkyjWY0OUoL3SAt0d6O7VmD8J_p4LtdZcPsvCp0bVCQ9jz1m9_Y2oZxoCYAIQAvD_BwE"
+            <a href="https://overwatch.blizzard.com/pt-br/"
                 target="_blank">
-                <img src="imagens/anuncio-index-removebg-preview.png" alt="" id="anuncio">
+                <img src="imagens/anuncio-MOBA.jpg" alt="" id="anuncio">
             </a>
         </nav>
     </aside>
