@@ -46,7 +46,7 @@ if (isset($_POST['submit'])) {
   <style>
     body {
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to right, #101010, #202020);
+    background: linear-gradient(to right, #DDB957, #7a500b);
 }
 
 .box {
@@ -127,11 +127,20 @@ legend {
 #submit:hover {
     background: linear-gradient(to right, #875a10, #543604);
 }
+
+.home {
+    background-color: rgba(1, 4, 11, 0.8);
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: #DDB957;
+    margin: 6px;
+}
   </style>
 </head>
 
 <body>
-  <a href="home.php">Voltar</a>
+  <a class="home" href="home.php">Voltar</a>
   <div class="box">
     <form action="formulario.php" method="POST">
       <fieldset>

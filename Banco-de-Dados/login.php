@@ -9,7 +9,7 @@
 
     html, body{
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to right, rgb(45, 45, 255), rgb(7, 14, 73));
+    background: linear-gradient(to right, #DDB957, #7a500b);
 }
 
 .tela-login {
@@ -47,10 +47,12 @@ input {
 }
 
 .home {
-    background-color: rgba(103, 120, 136, 0.8);
+    background-color: rgba(1, 4, 11, 0.8);
     border-radius: 10px;
     padding: 10px;
     text-decoration: none;
+    color: #DDB957;
+    margin: 6px;
 }
 
     </style>
