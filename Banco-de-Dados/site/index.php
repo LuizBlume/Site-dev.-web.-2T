@@ -19,6 +19,12 @@ $logado = $_SESSION['email'];
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="index.css">
 	<title>Game Time</title>
+	<link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+	<style>
+		header {
+			box-shadow: 0 5px 0 #171717;
+		}
+	</style>
 </head>
 
 <body>
