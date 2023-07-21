@@ -28,7 +28,7 @@ if (isset($_POST['submit'])) {
   $cidade = $_POST['cidade'];
   $estado = $_POST['estado'];
   $endereco = $_POST['endereco'];
-  
+
   $result = mysqli_query($conexao, "INSERT INTO usuarios (nome, email, senha, telefone, sexo, data_nasc, cidade, estado, endereco) VALUES ('$nome', '$email', '$senha', '$telefone', '$sexo', '$data_nasc', '$cidade', '$estado', '$endereco')");
 }
 
@@ -45,97 +45,97 @@ if (isset($_POST['submit'])) {
   <title>Formulário | LF</title>
   <style>
     body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to right, #DDB957, #7a500b);
-}
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(to right, #DDB957, #7a500b);
+    }
 
-.box {
-    margin-top: 15px;
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 15px;
-    border-radius: 15px;
-    width: 30%;
-}
+    .box {
+      margin-top: 15px;
+      color: white;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 15px;
+      border-radius: 15px;
+      width: 30%;
+    }
 
-fieldset {
-    border: 3px solid #F2F7EF;
-}
+    fieldset {
+      border: 3px solid #F2F7EF;
+    }
 
-legend {
-    text-align: center;
-    border: 1px solid #F2F7EF;
-    padding: 10px;
-    background-color: #DDB957;
-    border-radius: 8px;
-    color: #7a500b;
-}
+    legend {
+      text-align: center;
+      border: 1px solid #F2F7EF;
+      padding: 10px;
+      background-color: #DDB957;
+      border-radius: 8px;
+      color: #7a500b;
+    }
 
-.inputBox {
-    position: relative;
-}
+    .inputBox {
+      position: relative;
+    }
 
-.inputUser {
-    background: none;
-    border: none;
-    border-bottom: 1px solid white;
-    outline: none;
-    color: white;
-    font-size: 15px;
-    width: 100%;
-    letter-spacing: 2px;
-}
+    .inputUser {
+      background: none;
+      border: none;
+      border-bottom: 1px solid white;
+      outline: none;
+      color: white;
+      font-size: 15px;
+      width: 100%;
+      letter-spacing: 2px;
+    }
 
-.labelInput {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    pointer-events: none;
-    transition: .5s;
-}
+    .labelInput {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      pointer-events: none;
+      transition: .5s;
+    }
 
-.inputUser:focus ~ .labelInput,
-.inputUser:valid ~ .labelInput {
-    top: -20px;
-    font-size: 12px;
-    color: #6e5122;
-}
+    .inputUser:focus~.labelInput,
+    .inputUser:valid~.labelInput {
+      top: -20px;
+      font-size: 12px;
+      color: #6e5122;
+    }
 
-#data_nascimento {
-    border: none;
-    border-radius: 10px;
-    padding: 8px;
-    outline: none;
-    font-size: 17px;
-}
+    #data_nascimento {
+      border: none;
+      border-radius: 10px;
+      padding: 8px;
+      outline: none;
+      font-size: 17px;
+    }
 
-#submit {
-    background: linear-gradient(to right, #6e5122, #DDB957);
-    width: 100%;
-    padding: 15px;
-    border: none;
-    color: white;
-    font-size: 15px;
-    cursor: pointer;
-    border-radius: 10px;
-}
+    #submit {
+      background: linear-gradient(to right, #6e5122, #DDB957);
+      width: 100%;
+      padding: 15px;
+      border: none;
+      color: white;
+      font-size: 15px;
+      cursor: pointer;
+      border-radius: 10px;
+    }
 
-#submit:hover {
-    background: linear-gradient(to right, #875a10, #543604);
-}
+    #submit:hover {
+      background: linear-gradient(to right, #875a10, #543604);
+    }
 
-.home {
-    background-color: rgba(1, 4, 11, 0.8);
-    border-radius: 10px;
-    padding: 10px;
-    text-decoration: none;
-    color: #DDB957;
-    margin: 6px;
-}
+    .home {
+      background-color: rgba(1, 4, 11, 0.8);
+      border-radius: 10px;
+      padding: 10px;
+      text-decoration: none;
+      color: #DDB957;
+      margin: 6px;
+    }
   </style>
 </head>
 

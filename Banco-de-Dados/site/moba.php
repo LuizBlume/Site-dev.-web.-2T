@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>MOBA</title>
+    <style>
+        .anuncio-meio {
+            width: 870px;
+            height: 120px;
+        }
+    </style>
 </head>
 
 <body>
@@ -50,12 +56,17 @@
                 espectadores
                 e distribui milhões de dólares em premiações. Além disso, existem várias ligas regionais e torneios
                 independentes que mantêm a comunidade competitiva ativa.
-
-                pOutro MOBA popular é "Dota 2", desenvolvido pela Valve Corporation. O jogo tem sua própria competição
+                <br>
+                <a href="https://www.leagueoflegends.com/pt-br/" target="_blank" rel="noopener noreferrer">
+                    <img class="anuncio-meio" src="imagens/anuncio-meio-MOBA.jpg" alt="">
+                </a>
+                <br>
+                Outro MOBA popular é "Dota 2", desenvolvido pela Valve Corporation. O jogo tem sua própria competição
                 de
                 eSports, o "The International", que é conhecido por ter premiações astronômicas. Os jogadores
                 profissionais
-                de Dota 2 competem por prêmios em dinheiro que chegam a milhões de dólares.</p>
+                de Dota 2 competem por prêmios em dinheiro que chegam a milhões de dólares.
+            </p>
 
             <h2>Dados de jogos MOBA:</h2>
             <p>Os jogos MOBA atraem uma base de fãs enorme e têm uma presença significativa nos eSports. Aqui estão

@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Luta</title>
+    <style>
+        .anuncio-meio {
+            width: 870px;
+            height: 110px;
+        }
+    </style>
 </head>
 
 <body>
@@ -60,6 +66,11 @@
                 alguns
                 dados interessantes sobre jogos de luta:</p>
             <br>
+            <a href="https://www.mortalkombat.com/pt-br"
+                target="_blank" rel="noopener noreferrer">
+                <img class="anuncio-meio" src="imagens/anuncio-meio-luta.webp" alt="">
+            </a>
+            <br>
             <h3>Street Fighter V</h3>
             <p>É um dos jogos de luta mais populares atualmente. Lançado em 2016 pela Capcom, o jogo
                 mantém uma cena competitiva ativa e é um dos principais títulos do circuito de torneios de jogos de
@@ -91,8 +102,7 @@
     </main>
     <aside>
         <nav>
-            <a href="https://www.streetfighter.com/6/pt-br"
-                target="_blank">
+            <a href="https://www.streetfighter.com/6/pt-br" target="_blank">
                 <img src="imagens/anuncio-Luta.jpg" alt="" id="anuncio">
             </a>
         </nav>

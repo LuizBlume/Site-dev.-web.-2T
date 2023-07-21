@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Cartas</title>
+    <style>
+        .anuncio-meio {
+            width: 870px;
+            height: 110px;
+        }
+    </style>
 </head>
 
 <body>
@@ -27,7 +33,7 @@
             <p>Os jogos de cartas têm uma história longa e fascinante, tanto no mundo físico quanto no digital. Eles
                 envolvem estratégia, tomada de decisões e uma pitada de sorte. Aqui está uma visão geral da história,
                 competitividade e alguns dados sobre jogos de cartas.</p>
-<br>
+            <br>
             <h2>História:</h2>
             <p>Os jogos de cartas têm uma história que remonta a séculos. Os primeiros registros de jogos de cartas
                 datam
@@ -47,6 +53,10 @@
                 habilidosos se enfrentam em partidas estratégicas, utilizando táticas, blefes e aprimorando suas
                 habilidades
                 de leitura de jogo.</p>
+            <br>
+            <a href="https://hearthstone.blizzard.com/pt-br/news/18648148" target="_blank">
+                <img class="anuncio-meio" src="imagens/anuncio-meio-cartas.avif" alt="">
+            </a>
             <br>
             O "Poker" é um exemplo de um jogo de cartas com uma cena competitiva estabelecida. Existem muitos torneios
             de poker em todo o mundo, como a "World Series of Poker" e o "World Poker Tour", onde os jogadores competem
@@ -91,8 +101,7 @@
     </main>
     <aside>
         <nav>
-            <a href="https://www.ubisoft.com/pt-br/game/uno/uno"
-                target="_blank">
+            <a href="https://www.ubisoft.com/pt-br/game/uno/uno" target="_blank">
                 <img src="imagens/anuncio-cartas.png" alt="" id="anuncio">
             </a>
         </nav>

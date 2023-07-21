@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Esportes</title>
+    <style>
+        .anuncio-meio {
+            width: 870px;
+            height: 130px;
+        }
+    </style>
 </head>
 
 <body>
@@ -66,6 +72,10 @@
                 "Rocket
                 League" para futebol veicular, também têm comunidades competitivas ativas e torneios organizados.</p>
             <br>
+            <a href="https://www.ea.com/pt-br/games/fifa/fifa-23" target="_blank" rel="noopener noreferrer">
+                <img class="anuncio-meio" src="imagens/anuncio-meio-esportes.jpg" alt="">
+            </a>
+            <br>
             <h2>Dados de jogos de esportes:</h2>
             <p>Os jogos de esportes são extremamente populares e têm uma base de fãs global. Aqui estão alguns dados
                 interessantes sobre jogos de esportes:</p>
@@ -103,8 +113,7 @@
     </main>
     <aside>
         <nav>
-            <a href="https://nba.2k.com/2k23/"
-                target="_blank">
+            <a href="https://nba.2k.com/2k23/" target="_blank">
                 <img src="imagens/anuncio-esportes.webp" alt="" id="anuncio">
             </a>
         </nav>

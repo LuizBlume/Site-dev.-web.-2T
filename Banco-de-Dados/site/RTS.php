@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>RTS</title>
+    <style>
+        .anuncio-meio {
+            width: 870px;
+            height: 110px;
+        }
+    </style>
 </head>
 
 <body>
@@ -53,6 +59,11 @@
                 facções únicas e balanceadas, e sua expansão, "StarCraft: Brood War", tornou-se especialmente popular na
                 Coreia do Sul, onde os jogadores profissionais se tornaram verdadeiras celebridades do eSports.</p>
             <br>
+            <a href="https://play.google.com/store/apps/details?id=com.supercell.clashofclans&hl=pt_BR&gl=US"
+                target="_blank" rel="noopener noreferrer">
+                <img class="anuncio-meio" src="imagens/anuncio-meio-RTS.jpg" alt="">
+            </a>
+            <br>
             <h3>Warcraft III</h3>
             <p>Outros jogos RTS também têm uma presença competitiva significativa. "Warcraft III" da Blizzard e a série
                 "Command & Conquer" da Westwood Studios são exemplos de jogos que tiveram sucesso em competições
@@ -90,8 +101,7 @@
     </main>
     <aside>
         <nav>
-            <a href="https://supercell.com/en/games/clashroyale/"
-                target="_blank">
+            <a href="https://supercell.com/en/games/clashroyale/" target="_blank">
                 <img src="imagens/anuncio-rts.jpg" alt="" id="anuncio">
             </a>
         </nav>
