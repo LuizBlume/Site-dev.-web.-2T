@@ -68,7 +68,7 @@ $logado = $_SESSION['email'];
 			align-items: center;
 			height: 2.5rem;
 			width: 2.5rem;
-			color: var(--color-neutral-30);
+			color: var(--color-neutral-40);
 			border-radius: 50%;
 			transition: all 0.4s;
 		}
@@ -97,12 +97,12 @@ $logado = $_SESSION['email'];
 		}
 
 		.footer-list .footer-link {
-			color: var(--color-neutral-30);
+			color: var(--color-neutral-40);
 			transition: all 0.4s;
 		}
 
 		.footer-list .footer-link:hover {
-			color: var(---color-neutral-30);
+			color: var(---color-neutral-20);
 		}
 
 		#footer_subscribe {
@@ -144,18 +144,9 @@ $logado = $_SESSION['email'];
 			opacity: 0.8;
 		}
 
-		#footer_copyright {
-			display: flex;
-			justify-content: center;
-			background-color: var(---color-neutral-0);
-			font-size: 0.9rem;
-			padding: 1.5rem;
-			font-weight: 100;
-		}
-
 		@media screen and (max-width: 768px) {
 			#footer_content {
-				grid-template-columns: repeat(2, 1fr);
+				grid-template-columns: repeat(2, 2fr);
 				gap: 2rem;
 			}
 		}
@@ -169,6 +160,7 @@ $logado = $_SESSION['email'];
 
 		#logofooter {
 			border-radius: 180px;
+			width: 180px;
 		}
 	</style>
 </head>
@@ -250,9 +242,7 @@ $logado = $_SESSION['email'];
 	<footer>
 		<div id="footer_content">
 			<div id="footer_contacts">
-				<a href="index.php">
-					<img src="imagens/logo.png" alt="" id="logofooter">
-				</a>
+				<img src="imagens/foto-logo-footer.jpg" alt="" id="logofooter">
 				<p>Minhas redes sociais!</p>
 				<div id="footer_social_media">
 					<a href="https://www.instagram.com/blume.047/" class="footer-link" id="instagram">
@@ -313,10 +303,7 @@ $logado = $_SESSION['email'];
 			</div>
 		</div>
 
-		<div id="footer_copyright">
-			&#169
-			2023 all rights reseverds.
-		</div>
+
 	</footer>
 	<script type="text/javascript" src="javascript.js"></script>
 </body>
