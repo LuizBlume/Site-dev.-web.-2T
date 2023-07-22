@@ -303,7 +303,6 @@ $logado = $_SESSION['email'];
 			</div>
 		</div>
 
-
 	</footer>
 	<script type="text/javascript" src="javascript.js"></script>
 </body>

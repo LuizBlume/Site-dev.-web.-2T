@@ -16,6 +16,7 @@
             height: 110px;
         }
 
+        
 
         * {
             letter-spacing: 1px;
@@ -158,6 +159,7 @@
 
         #logofooter {
             border-radius: 180px;
+            width: 180px;
         }
     </style>
 </head>
@@ -258,9 +260,9 @@
         <div id="footer_content">
             <div id="footer_contacts">
                 <a href="index.php">
-                    <img src="imagens/logo.png" alt="" id="logofooter">
+                    <img src="imagens/foto-logo-footer.jpg" alt="" id="logofooter">
                 </a>
-                <p>it's all about your dreams.</p>
+                <p>Minhas redes sociais!</p>
                 <div id="footer_social_media">
                     <a href="https://www.instagram.com/blume.047/" class="footer-link" id="instagram">
                         <i class="fa-brands fa-instagram"></i>
