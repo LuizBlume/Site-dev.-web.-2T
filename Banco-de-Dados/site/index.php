@@ -30,6 +30,8 @@ $logado = $_SESSION['email'];
 
 		* {
 			letter-spacing: 1px;
+			padding: 0;
+			margin: 0;
 		}
 
 		header {
@@ -162,6 +164,14 @@ $logado = $_SESSION['email'];
 			border-radius: 180px;
 			width: 180px;
 		}
+
+		.link-topo {
+			display: block;
+			text-align: center;
+			margin-top: 20px;
+			color: #007BFF;
+			text-decoration: none;
+		}
 	</style>
 </head>
 
@@ -182,8 +192,8 @@ $logado = $_SESSION['email'];
 	<main>
 		<section>
 
-			<h1>
-				<p>Notícias</p>
+			<h1 id="topo">
+				<p>Bem-vindo ao Site de eSports!</p>
 			</h1>
 
 			<br>
@@ -243,7 +253,7 @@ $logado = $_SESSION['email'];
 		<div id="footer_content">
 			<div id="footer_contacts">
 				<img src="imagens/foto-logo-footer.jpg" alt="" id="logofooter">
-				<p>Minhas redes sociais!</p>
+				<p>Minhas redes sociais</p>
 				<div id="footer_social_media">
 					<a href="https://www.instagram.com/blume.047/" class="footer-link" id="instagram">
 						<i class="fa-brands fa-instagram"></i>
@@ -251,7 +261,7 @@ $logado = $_SESSION['email'];
 					<a href="https://www.facebook.com/profile.php?id=100025262752685" class="footer-link" id="facebook">
 						<i class="fa-brands fa-facebook-f"></i>
 					</a>
-					<a href="https://web.whatsapp.com/" class="footer-link" id="whatsapp">
+					<a href="https://wa.me/qr/B74IRQ5IJLXVJ1" class="footer-link" id="whatsapp" target="_blank">
 						<i class="fa-brands fa-whatsapp"></i>
 					</a>
 				</div>
@@ -259,37 +269,37 @@ $logado = $_SESSION['email'];
 			<ul class="footer-list">
 				<li>
 					<h3>
-						Blog
+						Para mais notícias, acesse:
 					</h3>
 				</li>
 				<li>
-					<a href="#" class="footer-link">Tech</a>
+					<a href="https://portaldogamer.com.br/" class="footer-link" target="_blank">Portal do Gamer</a>
 				</li>
 				<li>
-					<a href="#" class="footer-link">Adventures</a>
+					<a href="https://www.tecmundo.com.br/voxel/noticias" class="footer-link" target="_blank">Tecmundo</a>
 				</li>
 				<li>
-					<a href="#" class="footer-link">Music</a>
+					<a href="https://www.theenemy.com.br/news" class="footer-link" target="_blank">The Enemy</a>
 				</li>
 			</ul>
 			<ul class="footer-list">
 				<li>
 					<h3>
-						Products
+						Produtos
 					</h3>
 				</li>
 				<li>
-					<a href="#" class="footer-link">app</a>
+					<a href="jogo/jogo.php" class="footer-link">Jogue um jogo feito por mim</a>
 				</li>
 				<li>
-					<a href="#" class="footer-link">Desktop</a>
+					<a href="#topo" class="footer-link">Voltar ao topo ▲</a>
 				</li>
 				<li>
-					<a href="#" class="footer-link">Cloud</a>
+					<a href="https://www.linkedin.com/in/luiz-fernando-532447280/" class="footer-link" target="_blank">Linkedin</a>
 				</li>
 			</ul>
 			<div id="footer_subscribe">
-				<h3>Subscribe</h3>
+				<h3>Inscreva-se</h3>
 				<p>
 					Entre com seu email para notificarmos novas notícias.
 				</p>

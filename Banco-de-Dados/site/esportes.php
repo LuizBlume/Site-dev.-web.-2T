@@ -271,71 +271,68 @@
         </nav>
     </aside>
     <footer>
-        <div id="footer_content">
-            <div id="footer_contacts">
-                <a href="index.php">
-                    <img src="imagens/foto-logo-footer.jpg" alt="" id="logofooter">
-                </a>
-                <p>Minhas redes sociais!</p>
-                <div id="footer_social_media">
-                    <a href="https://www.instagram.com/blume.047/" class="footer-link" id="instagram">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                    <a href="https://www.facebook.com/profile.php?id=100025262752685" class="footer-link" id="facebook">
-                        <i class="fa-brands fa-facebook-f"></i>
-                    </a>
-                    <a href="https://web.whatsapp.com/" class="footer-link" id="whatsapp">
-                        <i class="fa-brands fa-whatsapp"></i>
-                    </a>
-                </div>
-            </div>
-            <ul class="footer-list">
-                <li>
-                    <h3>
-                        Blog
-                    </h3>
-                </li>
-                <li>
-                    <a href="#" class="footer-link">Tech</a>
-                </li>
-                <li>
-                    <a href="#" class="footer-link">Adventures</a>
-                </li>
-                <li>
-                    <a href="#" class="footer-link">Music</a>
-                </li>
-            </ul>
-            <ul class="footer-list">
-                <li>
-                    <h3>
-                        Products
-                    </h3>
-                </li>
-                <li>
-                    <a href="#" class="footer-link">app</a>
-                </li>
-                <li>
-                    <a href="#" class="footer-link">Desktop</a>
-                </li>
-                <li>
-                    <a href="#" class="footer-link">Cloud</a>
-                </li>
-            </ul>
-            <div id="footer_subscribe">
-                <h3>Subscribe</h3>
-                <p>
-                    Entre com seu email para notificarmos novas notícias.
-                </p>
+    <div id="footer_content">
+			<div id="footer_contacts">
+				<img src="imagens/foto-logo-footer.jpg" alt="" id="logofooter">
+				<p>Minhas redes sociais</p>
+				<div id="footer_social_media">
+					<a href="https://www.instagram.com/blume.047/" class="footer-link" id="instagram">
+						<i class="fa-brands fa-instagram"></i>
+					</a>
+					<a href="https://www.facebook.com/profile.php?id=100025262752685" class="footer-link" id="facebook">
+						<i class="fa-brands fa-facebook-f"></i>
+					</a>
+					<a href="https://wa.me/qr/B74IRQ5IJLXVJ1" class="footer-link" id="whatsapp" target="_blank">
+						<i class="fa-brands fa-whatsapp"></i>
+					</a>
+				</div>
+			</div>
+			<ul class="footer-list">
+				<li>
+					<h3>
+						Para mais notícias, acesse:
+					</h3>
+				</li>
+				<li>
+					<a href="https://portaldogamer.com.br/" class="footer-link" target="_blank">Portal do Gamer</a>
+				</li>
+				<li>
+					<a href="https://www.tecmundo.com.br/voxel/noticias" class="footer-link" target="_blank">Tecmundo</a>
+				</li>
+				<li>
+					<a href="https://www.theenemy.com.br/news" class="footer-link" target="_blank">The Enemy</a>
+				</li>
+			</ul>
+			<ul class="footer-list">
+				<li>
+					<h3>
+						Produtos
+					</h3>
+				</li>
+				<li>
+					<a href="jogo/jogo.php" class="footer-link">Jogue um jogo feito por mim</a>
+				</li>
+				<li>
+					<a href="https://www.tiktok.com/@blume.047" class="footer-link" target="_blank">Tik Tok</a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/in/luiz-fernando-532447280/" class="footer-link" target="_blank">Linkedin</a>
+				</li>
+			</ul>
+			<div id="footer_subscribe">
+				<h3>Inscreva-se</h3>
+				<p>
+					Entre com seu email para notificarmos novas notícias.
+				</p>
 
-                <div id="input_group">
-                    <input type="email" id="email">
-                    <button>
-                        <i class="fa-regular fa-envelope"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-
+				<div id="input_group">
+					<input type="email" id="email">
+					<button>
+						<i class="fa-regular fa-envelope"></i>
+					</button>
+				</div>
+			</div>
+		</div>
         <div id="footer_copyright">
             &#169
             2023 all rights reseverds.
