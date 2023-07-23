@@ -172,6 +172,53 @@ $logado = $_SESSION['email'];
 			color: #007BFF;
 			text-decoration: none;
 		}
+
+		body.dark {
+			background: #F2F7EF;
+		}
+
+		.checkbox {
+			opacity: 0;
+			position: absolute;
+		}
+
+		.label {
+			background-color: black;
+			border-radius: 50px;
+			cursor: pointer;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 5px;
+			position: relative;
+			height: 26px;
+			width: 50px;
+			transform: scale(1.5);
+		}
+
+		.label .ball {
+			background-color: #fff;
+			border-radius: 50%;
+			position: absolute;
+			top: 2px;
+			left: 2px;
+			height: 22px;
+			width: 22px;
+			transform: translateX(0px);
+			transition: transform 0.2s linear;
+		}
+
+		.checkbox:checked+.label .ball {
+			transform: translateX(24px);
+		}
+
+		.fa-moon {
+			color: #f1c40f;
+		}
+
+		.fa-sun {
+			color: #f39c12;
+		}
 	</style>
 </head>
 
@@ -190,6 +237,14 @@ $logado = $_SESSION['email'];
 		</nav>
 	</header>
 	<main>
+		<div>
+			<input type="checkbox" class="checkbox" id="chk">
+			<label class="label" for="chk">
+				<i class="fas fa-moon"></i>
+				<i class="fas fa-sun"></i>
+				<div class="ball"></div>
+			</label>
+		</div>
 		<section>
 
 			<h1 id="topo">
@@ -276,7 +331,8 @@ $logado = $_SESSION['email'];
 					<a href="https://portaldogamer.com.br/" class="footer-link" target="_blank">Portal do Gamer</a>
 				</li>
 				<li>
-					<a href="https://www.tecmundo.com.br/voxel/noticias" class="footer-link" target="_blank">Tecmundo</a>
+					<a href="https://www.tecmundo.com.br/voxel/noticias" class="footer-link"
+						target="_blank">Tecmundo</a>
 				</li>
 				<li>
 					<a href="https://www.theenemy.com.br/news" class="footer-link" target="_blank">The Enemy</a>
@@ -295,7 +351,8 @@ $logado = $_SESSION['email'];
 					<a href="#topo" class="footer-link">Voltar ao topo ▲</a>
 				</li>
 				<li>
-					<a href="https://www.linkedin.com/in/luiz-fernando-532447280/" class="footer-link" target="_blank">Linkedin</a>
+					<a href="https://www.linkedin.com/in/luiz-fernando-532447280/" class="footer-link"
+						target="_blank">Linkedin</a>
 				</li>
 			</ul>
 			<div id="footer_subscribe">
@@ -315,4 +372,6 @@ $logado = $_SESSION['email'];
 
 	</footer>
 	<script type="text/javascript" src="javascript.js"></script>
+	<script src="script.js"></script>
+	<script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
 </body>

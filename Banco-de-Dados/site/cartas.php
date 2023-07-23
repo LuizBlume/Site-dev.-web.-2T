@@ -303,7 +303,7 @@
                     <a href="jogo/jogo.php" class="footer-link">Jogue um jogo feito por mim</a>
                 </li>
                 <li>
-                    <a href="https://www.tiktok.com/@blume.047" class="footer-link" target="_blank">Tik Tok</a>
+                    <a href="https://github.com/LuizBlume" class="footer-link" target="_blank">Github</a>
                 </li>
                 <li>
                     <a href="https://www.linkedin.com/in/luiz-fernando-532447280/" class="footer-link"
