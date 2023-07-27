@@ -2,7 +2,7 @@
 
     $dbHost = 'Localhost';
     $dbUsername = 'root';
-    $dbPassword = '';
+    $dbPassword = 'root';
     $dbName = 'formulário-luiz';
 
 
