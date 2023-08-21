@@ -115,7 +115,7 @@ a {
     padding: 5px;
 }
 
-@media only screen and (max-width: 817px) {
+/* @media only screen and (max-width: 817px) {
 
     #openMenu,
     #closeMenu {
@@ -150,7 +150,7 @@ a {
     nav a {
         margin: 3%;
     }
-}
+} */
 
 .logo {
     align-items: center;
@@ -165,15 +165,15 @@ a {
 
 #anuncio {
     height: 630px;
-    width: 323px;
+    width: 100%;
     cursor: pointer;
     bottom: 30px;
     border-radius: 15px;
 }
 
 .anuncio-meio {
-    width: 870px;
-    height: 110px;
+    width: 100%;
+    height: 160px;
 }
 
 
@@ -323,4 +323,56 @@ footer {
 
 main {
     height: 100%;
+}
+
+.logo {
+    border-radius: 180px;
+}
+
+@media only screen and (max-width: 817px) {
+    header {
+        padding: 10px;
+    }
+
+    #openMenu,
+    #closeMenu {
+        display: block;
+    }
+
+    nav {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgba(255, 255, 255, 0.8);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s, visibility 0s 0.3s;
+    }
+
+    nav.active {
+        opacity: 1;
+        visibility: visible;
+        transition: opacity 0.3s;
+    }
+
+    nav a {
+        margin: 5% 0;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    header {
+        padding: 10px 20px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    aside {
+        margin-left: 0;
+    }
 }

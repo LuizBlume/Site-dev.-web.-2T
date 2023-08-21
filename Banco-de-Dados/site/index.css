@@ -55,6 +55,7 @@ header #logo {
     padding: 0px 5px 0px 5px;
     cursor: pointer;
     display: none;
+    color: var(--color-neutral-40);
 }
 
 nav {
@@ -109,7 +110,7 @@ a {
     padding: 5px;
 }
 
-@media only screen and (max-width: 817px) {
+/* @media only screen and (max-width: 817px) {
 
     #openMenu,
     #closeMenu {
@@ -139,12 +140,14 @@ a {
         opacity: 0;
         transition: 0.3s;
         color: black;
+        z-index: 1;
     }
 
     nav a {
         margin: 3%;
+        z-index: 1;
     }
-}
+} */
 
 .logo {
     align-items: center;
@@ -190,6 +193,9 @@ section a {
     font-size: 1.5em;
 }
 
+.imgsection {
+    max-width: 180px;
+}
 
 section a:hover {
     border-radius: 15px;
@@ -202,3 +208,90 @@ section h1 {
     text-align: center;
 }
 
+/* @media (max-width: 920px){
+    #topo{
+        margin-bottom: 20px;
+    }
+
+    p {
+        margin-bottom: 15px;
+    }
+
+    aside {
+        display: none;
+    }
+}
+
+@media (max-width: 412px) {
+    p {
+        margin-bottom: 10px;
+    }
+
+    .section {
+        margin-bottom: 20px;
+    }
+} */
+
+@media screen and (max-width: 768px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header #logo {
+        width: 100%;
+        justify-content: center;
+    }
+
+    #openMenu,
+    #closeMenu {
+        display: block;
+    }
+
+    nav {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(255, 255, 255, 0.8);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        display: none;
+        opacity: 0;
+        transition: 0.3s;
+        color: black;
+        z-index: 1;
+    }
+
+    nav a {
+        margin: 3%;
+        z-index: 1;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    section {
+        grid-template-columns: 1fr;
+        padding: 20px;
+        font-size: 0.9em;
+    }
+
+    section img {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    nav a {
+        font-size: 14pt;
+    }
+
+    section {
+        padding: 15px;
+        font-size: 0.8em;
+    }
+}

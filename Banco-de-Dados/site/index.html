@@ -1,15 +1,15 @@
-<?php
+<!-- <?php
 session_start();
-// print_r($_SESSION);
-// if ((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true)) {
-// 	unset($_SESSION['email']);
-// 	unset($_SESSION['senha']);
-// 	header('Location: login.php');
-// }
+print_r($_SESSION);
+if ((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true)) {
+	unset($_SESSION['email']);
+	unset($_SESSION['senha']);
+	header('Location: login.php');
+}
 
 $logado = $_SESSION['email'];
 
-?>
+?> -->
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -188,12 +188,12 @@ $logado = $_SESSION['email'];
 		<button id="openMenu">&#9776;</button>
 		<nav id="menu">
 			<button id="closeMenu">X</button>
-			<a href="RTS.php" id="linkmenu">RTS</a>
-			<a href="FPS.php" id="linkmenu">FPS</a>
-			<a href="Luta.php" id="linkmenu">Luta</a>
-			<a href="esportes.php" id="linkmenu">Esportes</a>
-			<a href="cartas.php" id="linkmenu">Cartas</a>
-			<a href="MOBA.php" id="linkmenu">MOBA</a>
+			<a href="RTS.html" id="linkmenu">RTS</a>
+			<a href="FPS.html" id="linkmenu">FPS</a>
+			<a href="Luta.html" id="linkmenu">Luta</a>
+			<a href="esportes.html" id="linkmenu">Esportes</a>
+			<a href="cartas.html" id="linkmenu">Cartas</a>
+			<a href="MOBA.html" id="linkmenu">MOBA</a>
 		</nav>
 	</header>
 	<main>
@@ -206,44 +206,44 @@ $logado = $_SESSION['email'];
 			<br>
 			<br>
 
-			<a href="RTS.php">
+			<a href="RTS.html">
 				<img class="imgsection" src="imagens/rts.webp" alt="">
-				<p>Estratégia em Tempo Real: O que são os eSports de estratégia em tempo real?</p>
+				<p class="section">Estratégia em Tempo Real: O que são os eSports de estratégia em tempo real?</p>
 			</a>
 
 			<br>
 
-			<a href="FPS.php">
+			<a href="FPS.html">
 				<img class="imgsection" src="imagens/FPS.jpg" alt="">
-				<p>FPS: A modalidade mais conhecida de eSports, venha conhecer também!</p>
+				<p class="section">FPS: A modalidade mais conhecida de eSports, venha conhecer também!</p>
 			</a>
 
 			<br>
 
-			<a href="Luta.php">
+			<a href="Luta.html">
 				<img class="imgsection" src="imagens/LUTA.webp" alt="">
-				<p>Luta: Conheça a modalidade eSports mais agressiva!</p>
+				<p class="section">Luta: Conheça a modalidade eSports mais agressiva!</p>
 			</a>
 
 			<br>
 
-			<a href="esportes.php">
+			<a href="esportes.html">
 				<img class="imgsection" src="imagens/esportes.avif" alt="">
-				<p>Esportes: Esportes comuns mas dentro de telas!</p>
+				<p class="section">Esportes: Esportes comuns mas dentro de telas!</p>
 			</a>
 
 			<br>
 
-			<a href="cartas.php]">
+			<a href="cartas.html">
 				<img class="imgsection" src="imagens/cartas.jpg" alt="">
-				<p>Cartas: Um esporte que exige muita atenção!</p>
+				<p class="section">Cartas: Um esporte que exige muita atenção!</p>
 			</a>
 
 			<br>
 
-			<a href="moba.php">
+			<a href="moba.html">
 				<img class="imgsection" src="imagens/MOBA.jpg" alt="">
-				<p>MOBA: Um jogo de estratégia em equipe!</p>
+				<p class="section">MOBA: Um jogo de estratégia em equipe!</p>
 			</a>
 		</section>
 	</main>
@@ -297,7 +297,7 @@ $logado = $_SESSION['email'];
 					</h3>
 				</li>
 				<li>
-					<a href="jogo/jogo.php" class="footer-link">Jogue um jogo feito por mim</a>
+					<a href="jogo/jogo.html" class="footer-link">Jogue um jogo feito por mim</a>
 				</li>
 				<li>
 					<a href="#topo" class="footer-link">Voltar ao topo ▲</a>
