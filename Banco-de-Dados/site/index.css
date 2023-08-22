@@ -85,14 +85,6 @@ aside {
 footer {
     width: 100%;
     color: #ffffff;
-    /* height: 200px;
-    background-color: #202020;
-    display: grid;
-    grid-template-columns: 1fr;
-    color: #ffffff;
-    font-family: 'Oswald', sans-serif;
-    font-size: 1.6em;
-    letter-spacing: 1px; */
 }
 
 #linkfooter:hover {
@@ -109,45 +101,6 @@ a {
     border-radius: 7px;
     padding: 5px;
 }
-
-/* @media only screen and (max-width: 817px) {
-
-    #openMenu,
-    #closeMenu {
-        display: block;
-    }
-
-    #openMenu {
-        margin-left: auto;
-    }
-
-    #closeMenu {
-        position: fixed;
-        right: 15px;
-        top: 15px;
-    }
-
-    nav {
-        position: fixed;
-        width: 100vw;
-        height: 100vh;
-        background: rgba(255, 255, 255, 0.8);
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin: 0;
-        display: none;
-        opacity: 0;
-        transition: 0.3s;
-        color: black;
-        z-index: 1;
-    }
-
-    nav a {
-        margin: 3%;
-        z-index: 1;
-    }
-} */
 
 .logo {
     align-items: center;
@@ -208,29 +161,6 @@ section h1 {
     text-align: center;
 }
 
-/* @media (max-width: 920px){
-    #topo{
-        margin-bottom: 20px;
-    }
-
-    p {
-        margin-bottom: 15px;
-    }
-
-    aside {
-        display: none;
-    }
-}
-
-@media (max-width: 412px) {
-    p {
-        margin-bottom: 10px;
-    }
-
-    .section {
-        margin-bottom: 20px;
-    }
-} */
 
 @media screen and (max-width: 768px) {
     header {
@@ -285,13 +215,36 @@ section h1 {
     }
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 425px) {
     nav a {
         font-size: 14pt;
     }
 
     section {
-        padding: 15px;
+        padding: 5px;
         font-size: 0.8em;
+    }
+
+    main {
+        font-size: 0.9em;
+    }
+
+    .imgsection {
+        width: 160px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    header {
+        padding: 10px 20px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    aside {
+        margin-left: 0;
     }
 }
