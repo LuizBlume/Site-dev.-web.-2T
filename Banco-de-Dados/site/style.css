@@ -115,7 +115,7 @@ a {
     padding: 5px;
 }
 
-/* @media only screen and (max-width: 817px) {
+@media only screen and (max-width: 817px) {
 
     #openMenu,
     #closeMenu {
@@ -134,7 +134,7 @@ a {
 
     nav {
         position: fixed;
-        width: 100vw;
+        width: 100%;
         height: 100vh;
         background: rgba(255, 255, 255, 0.8);
         flex-direction: column;
@@ -145,12 +145,37 @@ a {
         opacity: 0;
         transition: 0.3s;
         color: black;
+        visibility: hidden;
+        transition: opacity 0.3s, visibility 0s 0.3s;
     }
 
     nav a {
         margin: 3%;
     }
-} */
+
+    p {
+        margin-bottom: 10px;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    #openMenu,
+    #closeMenu {
+        display: block;
+    }
+
+    nav.active {
+        opacity: 1;
+        visibility: visible;
+        transition: opacity 0.3s;
+    }
+
+    nav a {
+        margin: 5% 0;
+    }
+}
 
 .logo {
     align-items: center;
@@ -330,37 +355,7 @@ main {
 }
 
 @media only screen and (max-width: 817px) {
-    header {
-        padding: 10px;
-    }
-
-    #openMenu,
-    #closeMenu {
-        display: block;
-    }
-
-    nav {
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background: rgba(255, 255, 255, 0.8);
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        opacity: 0;
-        visibility: hidden;
-        transition: opacity 0.3s, visibility 0s 0.3s;
-    }
-
-    nav.active {
-        opacity: 1;
-        visibility: visible;
-        transition: opacity 0.3s;
-    }
-
-    nav a {
-        margin: 5% 0;
-    }
+   
 }
 
 @media only screen and (max-width: 1024px) {
