@@ -1,4 +1,4 @@
-<!-- <?php
+<?php
 session_start();
 print_r($_SESSION);
 if ((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true)) {
@@ -9,7 +9,7 @@ if ((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true
 
 $logado = $_SESSION['email'];
 
-?> -->
+?>
 
 <!DOCTYPE html>
 <html lang="pt-br">

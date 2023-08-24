@@ -46,6 +46,10 @@ header #logo {
     width: 150px;
 }
 
+#closeMenu {
+    color: var(--color-neutral-0);
+}
+
 #openMenu,
 #closeMenu {
     border: none;
@@ -177,6 +181,10 @@ section h1 {
     #openMenu,
     #closeMenu {
         display: block;
+    }
+
+    #closeMenu {
+        color: var(--color-neutral-0);
     }
 
     nav {
